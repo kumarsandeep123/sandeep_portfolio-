@@ -1,0 +1,1352 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* background-color: blue; */
+}
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgb(65, 105, 225);
+}
+#logo {
+  color:yellow;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#heading{
+   font-size: 25px;
+   font-weight: 400;
+   color: #191970;
+}
+
+@media screen and (max-width: 575px) {
+  .home {
+    background-color: #081b29;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .home-content {
+    padding: 30px;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .home-content h1 {
+    padding: 10px;
+    text-align: left;
+    color: whitesmoke;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .text-animate {
+    padding: 5px;
+    text-align: left;
+    color: tomato;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .home-content p {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .btn-box {
+    margin-top: 30px;
+  }
+
+  .btn-box a {
+    border: 2px solid black;
+    padding-left: 30px;
+    text-align: center;
+    color: white;
+  }
+  .btn-box a:hover {
+    background-color: blue;
+  }
+
+  .home-sci {
+    margin-top: 20%;
+  }
+
+  .home-sci i {
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .dev-pic {
+    display: none;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 895px) {
+  .home {
+    background-color: #081b29;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .home-content {
+    padding: 30px;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .home-content h1 {
+    padding: 10px;
+    text-align: left;
+    color:whitesmoke;
+    font-size: 80px;
+    font-weight: 500;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .text-animate {
+    padding: 5px;
+    text-align: left;
+    color:tomato;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .home-content p {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .btn-box {
+    margin-top: 30px;
+  }
+
+  .btn-box a {
+    border: 2px solid black;
+    padding-left: 30px;
+    text-align: center;
+    color: white;
+  }
+  .btn-box a:hover {
+    background-color: blue;
+  }
+
+  .home-sci {
+    margin-top: 8%;
+  }
+
+  .home-sci i {
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .dev-pic {
+    display: none;
+  }
+}
+
+@media (min-width: 895px) and (max-width: 1199px) {
+  .home {
+    background-color: #081b29;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .home-content {
+    padding: 30px;
+    width: 50%;
+    height: 90vh;
+  }
+
+  .home-content h1 {
+    padding: 10px;
+    text-align: left;
+    color: whitesmoke;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .text-animate {
+    padding: 5px;
+    text-align: left;
+    color: tomato;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .home-content p {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .btn-box {
+    margin-top: 30px;
+  }
+
+  .btn-box a {
+    border: 2px solid black;
+    padding-left: 30px;
+    text-align: center;
+    color: white;
+  }
+  .btn-box a:hover {
+    background-color: blue;
+  }
+
+  .home-sci {
+    margin-top: 30%;
+  }
+
+  .home-sci i {
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .dev-pic {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 50%;
+  }
+
+  .dev-pic img {
+    margin-top: 60px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+}
+/* we might test for a width between two values like so: */
+@media (min-width: 1200px) {
+  .home {
+    background-color: #081b29;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .home-content {
+    padding: 30px;
+    width: 50%;
+    height: 90vh;
+  }
+
+  .home-content h1 {
+    padding: 10px;
+    text-align: left;
+    color: whitesmoke;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  .text-animate {
+    padding: 5px;
+    text-align: left;
+    color: tomato;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .home-content p {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .btn-box {
+    margin-top: 30px;
+  }
+
+  .btn-box a {
+    border: 2px solid black;
+    padding-left: 30px;
+    text-align: center;
+    color: white;
+  }
+  .btn-box a:hover {
+    background-color: blue;
+  }
+
+  .home-sci {
+    margin-top: 15%;
+  }
+
+  .home-sci i {
+    padding-left: 30px;
+    font-size: 30px;
+  }
+  .dev-pic {
+    margin-top: 50px;
+    width: 50%;
+  }
+
+  .dev-pic img {
+    margin: 60px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+}
+
+/* about */
+
+.about {
+  padding: 5px;
+  background-color: #112e42;
+}
+
+.about h2 {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.about h2 span {
+  color: #00abf0;
+}
+.about-img {
+  padding: 10px;
+  text-align: center;
+}
+
+.about-img img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+@media (max-width: 750px) {
+  .about-img img {
+    width: 40%;
+    border-radius: 50%;
+  }
+}
+.about h3 {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: initial;
+  color: yellow;
+}
+.about p {
+  padding: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.cv-box {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+.cv-box a {
+  color: navajowhite;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+/* education  */
+/* .education{
+    padding: 5px;
+    background-color: #081b29;
+    
+    
+}
+.heading{
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.heading span{
+    color: #00abf0;
+}
+
+.education-row{
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.education-column{
+    padding: 10px;
+    margin: 10px;
+}
+.title{
+    color: white;
+    font-weight: bold;
+}
+.education-content{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #002147 ;
+}
+.year{
+    color: white;
+}
+.year i{
+    padding: 5px;
+    color: white;
+}
+.content h3, p{
+    padding: 2px;
+   color: white;
+} */
+
+@media screen and (max-width: 575px) {
+  .education {
+    padding: 5px;
+    background-color: #081b29;
+  }
+  .heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+  .heading span {
+    color: #00abf0;
+  }
+
+  .education-row {
+    padding: 10px;
+    margin: 10px;
+    /* display: grid;
+        grid-template-columns: 6fr 6fr; */
+  }
+  .education-column {
+    padding: 10px;
+    margin: 10px;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+  }
+  .education-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #002147;
+  }
+  .year {
+    color: white;
+  }
+  .year i {
+    padding: 5px;
+    color: white;
+  }
+  .content h3,
+  p {
+    padding: 2px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 991px) {
+  .education {
+    padding: 5px;
+    background-color: #081b29;
+  }
+  .heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+  .heading span {
+    color: #00abf0;
+  }
+
+  .education-row {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  .education-column {
+    padding: 10px;
+    margin: 10px;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+  }
+  .education-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #002147;
+  }
+  .year {
+    color: white;
+  }
+  .year i {
+    padding: 5px;
+    color: white;
+  }
+  .content h3,
+  p {
+    padding: 2px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .education {
+    padding: 5px;
+    background-color: #081b29;
+  }
+  .heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+  .heading span {
+    color: #00abf0;
+  }
+
+  .education-row {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  .education-column {
+    padding: 10px;
+    margin: 10px;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+  }
+  .education-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #002147;
+  }
+  .year {
+    color: white;
+  }
+  .year i {
+    padding: 5px;
+    color: white;
+  }
+  .content h3,
+  p {
+    padding: 2px;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .education {
+    padding: 5px;
+    background-color: #081b29;
+  }
+  .heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+  .heading span {
+    color: #00abf0;
+  }
+
+  .education-row {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  .education-column {
+    padding: 10px;
+    margin: 10px;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+  }
+  .education-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #002147;
+  }
+  .year {
+    color: white;
+  }
+  .year i {
+    padding: 5px;
+    color: white;
+  }
+  .content h3,
+  p {
+    padding: 2px;
+    color: white;
+  }
+}
+
+/*  Skills -section */
+
+@media screen and (max-width: 575px) {
+  .skills {
+    padding: 20px;
+    background-color: #112e42;
+  }
+  .skills-container {
+    padding: 10px;
+    /* display: grid;
+        grid-template-columns: 6fr 6fr; */
+  }
+
+  .skills-row {
+    padding: 10px;
+  }
+  .skills-column {
+    padding: 10px;
+    border: 2px solid #00abf0;
+  }
+  .skills-column .title {
+    padding: 10px;
+    font-weight: 500;
+    font-style: oblique;
+  }
+  .skills-content {
+    padding: 10px;
+  }
+  .skills-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills-content h3 {
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+  }
+  .progress-bar {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 991px) {
+  .education {
+    padding: 5px;
+    background-color: #081b29;
+    /* second-bg-color:#112e42; */
+  }
+  .heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+  .heading span {
+    color: #00abf0;
+  }
+
+  .education-row {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  .education-column {
+    padding: 10px;
+    margin: 10px;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+  }
+  .education-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #002147;
+  }
+  .year {
+    color: white;
+  }
+  .year i {
+    padding: 5px;
+    color: white;
+  }
+  .content h3,
+  p {
+    padding: 2px;
+    color: white;
+  }
+
+  /*  Skills -section */
+  .skills {
+    padding: 20px;
+    background-color: #112e42;
+  }
+  .skills-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+
+  .skills-row {
+    padding: 10px;
+  }
+  .skills-column {
+    padding: 10px;
+    border: 2px solid #00abf0;
+  }
+  .skills-column .title {
+    padding: 10px;
+    font-weight: 500;
+    font-style: oblique;
+  }
+  .skills-content {
+    padding: 10px;
+  }
+  .skills-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills-content h3 {
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+  }
+  .progress-bar {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .education {
+    padding: 5px;
+    background-color: #081b29;
+    /* second-bg-color:#112e42; */
+  }
+  .heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+  .heading span {
+    color: #00abf0;
+  }
+
+  .education-row {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  .education-column {
+    padding: 10px;
+    margin: 10px;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+  }
+  .education-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #002147;
+  }
+  .year {
+    color: white;
+  }
+  .year i {
+    padding: 5px;
+    color: white;
+  }
+  .content h3,
+  p {
+    padding: 2px;
+    color: white;
+  }
+
+  /*  Skills -section */
+  .skills {
+    padding: 20px;
+    background-color: #112e42;
+  }
+  .skills-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+
+  .skills-row {
+    padding: 10px;
+  }
+  .skills-column {
+    padding: 10px;
+    border: 2px solid #00abf0;
+  }
+  .skills-column .title {
+    padding: 10px;
+    font-weight: 500;
+    font-style: oblique;
+  }
+  .skills-content {
+    padding: 10px;
+  }
+  .skills-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills-content h3 {
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+  }
+  .progress-bar {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .education {
+    padding: 5px;
+    background-color: #081b29;
+    /* second-bg-color:#112e42; */
+  }
+  .heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+  .heading span {
+    color: #00abf0;
+  }
+
+  .education-row {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+  .education-column {
+    padding: 10px;
+    margin: 10px;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+  }
+  .education-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid #002147;
+  }
+  .year {
+    color: white;
+  }
+  .year i {
+    padding: 5px;
+    color: white;
+  }
+  .content h3,
+  p {
+    padding: 2px;
+    color: white;
+  }
+
+  /*  Skills -section */
+  .skills {
+    padding: 20px;
+    background-color: #112e42;
+  }
+  .skills-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+  }
+
+  .skills-row {
+    padding: 10px;
+  }
+  .skills-column {
+    padding: 10px;
+    border: 2px solid #00abf0;
+  }
+  .skills-column .title {
+    padding: 10px;
+    font-weight: 500;
+    font-style: oblique;
+  }
+  .skills-content {
+    padding: 10px;
+  }
+  .skills-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills-content h3 {
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+  }
+  .progress-bar {
+    color: white;
+  }
+}
+
+/* Project-Section  */
+/* .project{
+    padding: 30px;
+    background-color:#081b29;
+
+}
+.project-details{ 
+ 
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-details img{
+    border-radius: 12px;
+}
+.card-container{
+    margin-top: 5%;
+    border-radius: 12px;
+    border: 2px solid #112e42 ;
+    box-shadow: 5px 5px 5px #112e42 ;
+    background-color: #112e42 ;
+}
+.card-body h5{
+    color: white;
+}
+.card-body p{
+    color: white;
+} */
+
+@media screen and (max-width: 575px) {
+  .project {
+    padding: 30px;
+    background-color: #081b29;
+  }
+  .project-details {
+    /* display: flex;
+        justify-content: space-evenly; */
+  }
+  .project-details img {
+    border-radius: 12px;
+  }
+  .card-container {
+    margin: 12%;
+    border-radius: 12px;
+    border: 2px solid #112e42;
+    box-shadow: 5px 5px 5px #112e42;
+    background-color: #112e42;
+  }
+  .card-body h5 {
+    color: white;
+  }
+  .card-body p {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 991px) {
+  .project {
+    padding: 30px;
+    background-color: #081b29;
+  }
+  .project-details {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .project-details img {
+    border-radius: 12px;
+  }
+  .card-container {
+    margin: 20px;
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    border-radius: 12px;
+    border: 2px solid #112e42;
+    box-shadow: 2px 2px 2px #112e42;
+    background-color: #112e42;
+  }
+  .card-body h5 {
+    color: white;
+  }
+  .card-body p {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .project {
+    padding: 30px;
+    background-color: #081b29;
+  }
+  .project-details {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .project-details img {
+    border-radius: 12px;
+  }
+  .card-container {
+    margin-top: 5%;
+    border-radius: 12px;
+    border: 2px solid #112e42;
+    box-shadow: 5px 5px 5px #112e42;
+    background-color: #112e42;
+  }
+  .card-body h5 {
+    color: white;
+  }
+  .card-body p {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project {
+    padding: 30px;
+    background-color: #081b29;
+  }
+  .project-details {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .project-details img {
+    border-radius: 12px;
+  }
+  .card-container {
+    margin-top: 5%;
+    border-radius: 12px;
+    border: 2px solid #112e42;
+    box-shadow: 5px 5px 5px #112e42;
+    background-color: #112e42;
+  }
+  .card-body h5 {
+    color: white;
+  }
+  .card-body p {
+    color: white;
+  }
+}
+
+/* Cantact-section */
+
+/* Extra small Device (Mobile Phone) */
+@media screen and (max-width: 575px) {
+  /* CSS rules for small devices */
+  .contact {
+    padding: 10px;
+    background-color: #112e42;
+  }
+  .from-container form {
+    /* border: 2px solid #081b29; */
+    border-radius: 5px;
+    width: 100%;
+    /* margin-left: 30%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .input-box {
+    padding: 10px;
+    /* display:  flex;
+        justify-content: space-around; */
+  }
+
+  .input-field {
+    padding: 10px;
+  }
+
+  .input-field input {
+    width: 100%;
+    background: none;
+    color: white;
+    border: 2px solid #00abf0;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .textarea-field {
+    padding: 10px;
+  }
+
+  .textarea-field textarea {
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 30px;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+  }
+
+  .button-area {
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+  }
+  .button-area .btn {
+    padding: 10px;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+  }
+}
+
+/* Small Devices (Tablets and Smaller Laptops) */
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  /* CSS rules for medium devices */
+  .contact {
+    padding: 10px;
+    background-color: #112e42;
+  }
+  .from-container form {
+    /* border: 2px solid #081b29; */
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .input-box {
+    padding: 10px;
+    display: flex;
+  }
+
+  .input-field {
+    padding: 10px;
+  }
+
+  .input-field input {
+    width: 100%;
+    background: none;
+    color: white;
+    border: 2px solid #00abf0;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .textarea-field {
+    padding: 10px;
+  }
+
+  .textarea-field textarea {
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+  }
+
+  .button-area {
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+  }
+  .button-area .btn {
+    padding: 10px;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+  }
+}
+
+/* large Devices (Destops) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* CSS rule for large devices  */
+  .contact {
+    padding: 10px;
+    background-color: #112e42;
+  }
+  .from-container form {
+    /* border: 2px solid #081b29; */
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .input-box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .input-field {
+    padding: 10px;
+  }
+
+  .input-field input {
+    width: 100%;
+    background: none;
+    color: white;
+    border: 2px solid #00abf0;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .textarea-field {
+    padding: 10px;
+  }
+
+  .textarea-field textarea {
+    background-color: transparent;
+    color: white;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 30px;
+    margin-left: 30px;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+  }
+
+  .button-area {
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+  }
+  .button-area .btn {
+    padding: 10px;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+  }
+}
+
+/* Extra Large Devices (High Resolution Monitors) */
+@media screen and (min-width: 1200px) {
+  /* CSS rules for extra large devices */
+  .contact {
+    padding: 10px;
+    background-color: #112e42;
+  }
+  .from-container form {
+    /* border: 2px solid #081b29; */
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .input-box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .input-field {
+    padding: 10px;
+  }
+
+  .input-field input {
+    width: 100%;
+    background: none;
+    color: white;
+    border: 2px solid #00abf0;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .textarea-field {
+    padding: 10px;
+  }
+
+  .textarea-field textarea {
+    background-color: transparent;
+    color: white;
+    width: 85%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+    margin-left: 7%;
+  }
+
+  .button-area {
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+  }
+  .button-area .btn {
+    padding: 10px;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+  }
+}
+
+/* footer-section */
+.footer {
+  padding: 10px;
+  background-color: #081b29;
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+.footer-text {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+}
+.footer-icanTop {
+  width: 100%;
+  padding: 10px;
+}
+
+#icans {
+  width: 100%;
+  color: #002147;
+
+  border: 2px solid #00abf0;
+  background-color: #00abf0;
+}
+
+
